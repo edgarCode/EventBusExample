@@ -18,6 +18,16 @@
     android:layout_marginTop="30dp"
     android:layout_marginLeft="30dp"
     android:text="postEvent"
+    android:onClick="onClick"
+    />
+<Button 
+    android:id="@+id/btn_start_activity"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="30dp"
+    android:text="startActivity"
+    android:onClick="onClick"
     />
 </LinearLayout>
 
