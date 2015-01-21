@@ -12,8 +12,7 @@ public class MainActivity extends Activity implements OnClickListener {
     private TextView mTVLabel;
     private Button mBtnPostEvent;
     @Override
-    public void onCreate(Bundle savedInstanceState)
-    {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         mTVLabel = (TextView) findViewById(R.id.tv);
