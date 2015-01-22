@@ -28,6 +28,7 @@
     android:layout_marginLeft="30dp"
     android:text="startActivity"
     android:onClick="onClick"
+    android:visibility="gone"
     />
 </LinearLayout>
 

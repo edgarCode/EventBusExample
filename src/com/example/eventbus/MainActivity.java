@@ -1,13 +1,12 @@
 package com.example.eventbus;
 
-import de.greenrobot.event.EventBus;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.TextView;
+import de.greenrobot.event.EventBus;
 
 public class MainActivity extends Activity implements OnClickListener {
     private TextView mTVLabel;
@@ -41,10 +40,6 @@ public class MainActivity extends Activity implements OnClickListener {
         switch (v.getId()) {
         case R.id.btn:
             EventBus.getDefault().post(new SetTextEvent("SetTextEvent"));
-            break;
-        case R.id.btn_start_activity:
-            Intent intent = new Intent(getApplicationContext(), TestActivity.class);
-            startActivity(intent);
             break;
         }
     }
