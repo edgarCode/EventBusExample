@@ -2,7 +2,7 @@
 这是一个EventBus简单示例demo
 
 在MainActivity中添加register和unregister; 事件的响应方法需要以“onEvent”开头，“MainThread”是表明执行在主线程中。
-
+<code>
  	@Override
     protected void onResume() {
         super.onResume();
@@ -20,10 +20,10 @@
             mTVLabel.setText(event.getText());
         }
     }
-
+</code>
 
 在onClick中给接收者post消息
-
+<code>
 	@Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -32,7 +32,7 @@
             break;
         }
     }
-
+</code>
 app启动时的效果图如下：
 
 <img src="image/image1.png" width="640" height="360"/>    
