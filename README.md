@@ -37,6 +37,6 @@ app启动时的效果图如下：
 
 <img src="image/image1.png" width="640" height="360"/>    
 
-此时TextView显示的是SetTextEvent，此时我们点击button，可以看到TextView的内容变为我们通过EventBus设置的“SetTextEven”：
+此时TextView显示的是SetTextEvent，此时我们点击button，可以看到TextView的内容变为我们通过EventBus设置的“SetTextEvent”：
 
 <img src="image/image2.png" width="640" height="360"/>
